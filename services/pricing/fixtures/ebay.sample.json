@@ -1,0 +1,43 @@
+{
+  "cards": {
+    "swsh4-183": {
+      "cardId": "swsh4-183",
+      "currency": "USD",
+      "soldAvg": 94.50,
+      "low": 75.00,
+      "high": 125.00,
+      "lastSold": 94.50,
+      "sampleSize": 23,
+      "lastUpdated": "2026-01-08T00:00:00Z"
+    },
+    "base1-4": {
+      "cardId": "base1-4",
+      "currency": "USD",
+      "soldAvg": 365.00,
+      "low": 310.00,
+      "high": 500.00,
+      "lastSold": 355.00,
+      "sampleSize": 56,
+      "lastUpdated": "2026-01-08T00:00:00Z"
+    },
+    "swsh12-160": {
+      "cardId": "swsh12-160",
+      "currency": "USD",
+      "soldAvg": 188.00,
+      "low": 165.00,
+      "high": 220.00,
+      "lastSold": 190.00,
+      "sampleSize": 18,
+      "lastUpdated": "2026-01-08T00:00:00Z"
+    }
+  },
+  "default": {
+    "currency": "USD",
+    "soldAvg": 22.00,
+    "low": 18.00,
+    "high": 28.00,
+    "lastSold": 21.50,
+    "sampleSize": 8,
+    "lastUpdated": "2026-01-08T00:00:00Z"
+  }
+}
