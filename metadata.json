@@ -1,0 +1,7 @@
+{
+  "name": "PokéPulse: Collector Pro",
+  "description": "The ultimate high-performance real-time decision tool for Pokémon TCG collectors. Scan cards, track market values, and verify deals instantly at conventions or local shops.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
