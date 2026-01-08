@@ -3,7 +3,7 @@ import React, { useRef, useState, useCallback, useEffect } from 'react';
 import { identifyCardFromImage } from '../services/geminiService';
 import { getCardByDetails } from '../services/cardDatabase';
 import { PokemonCard } from '../types';
-import { Camera, RefreshCw, X, Zap } from 'lucide-react';
+import { RefreshCw, X, Zap } from 'lucide-react';
 
 interface ScannerProps {
   onCardFound: (card: PokemonCard) => void;
@@ -26,6 +26,7 @@ const Scanner: React.FC<ScannerProps> = ({ onCardFound, onClose }) => {
           videoRef.current.srcObject = stream;
         }
       } catch (err) {
+        console.error('Camera setup error:', err);
         setError("Camera access denied. Please enable permissions.");
       }
     }

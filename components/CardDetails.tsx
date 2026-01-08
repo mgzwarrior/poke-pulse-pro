@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { PokemonCard, CollectionStatus, CardCondition } from '../types';
+import { PokemonCard, CollectionStatus } from '../types';
 import DealIntelligence from './DealIntelligence';
 import { ArrowLeft, Plus, History, Bookmark, Share2 } from 'lucide-react';
 

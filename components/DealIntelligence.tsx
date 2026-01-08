@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { TrendingDown, CheckCircle2, AlertTriangle, XCircle } from 'lucide-react';
+import { TrendingDown, CheckCircle2, AlertTriangle } from 'lucide-react';
 
 interface DealIntelligenceProps {
   marketPrice: number;
