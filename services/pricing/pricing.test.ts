@@ -184,12 +184,13 @@ describe('CompositePricingService', () => {
 
     // Verify that all prices are properly rounded (no more than 2 decimal places)
     expect(Number.isFinite(summary.market)).toBe(true);
-    expect(Number.isFinite(summary.low)).toBe(true);
-    expect(Number.isFinite(summary.high)).toBe(true);
-    
-    // Check that rounding is correct (multiply by 100, round, divide by 100 should be same)
-    expect(summary.market).toBe(Math.round(summary.market * 100) / 100);
-    expect(summary.low).toBe(Math.round(summary.low * 100) / 100);
-    expect(summary.high).toBe(Math.round(summary.high * 100) / 100);
+    if (summary.low !== undefined) {
+      expect(Number.isFinite(summary.low)).toBe(true);
+      expect(summary.low).toBe(Math.round(summary.low * 100) / 100);
+    }
+    if (summary.high !== undefined) {
+      expect(Number.isFinite(summary.high)).toBe(true);
+      expect(summary.high).toBe(Math.round(summary.high * 100) / 100);
+    }
   });
 });

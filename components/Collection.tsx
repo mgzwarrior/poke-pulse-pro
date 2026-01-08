@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { CollectionItem, PokemonCard, CollectionStatus } from '../types';
-import { LayoutGrid, List, Search, Filter } from 'lucide-react';
+import { LayoutGrid, Search } from 'lucide-react';
 
 interface CollectionProps {
   items: CollectionItem[];

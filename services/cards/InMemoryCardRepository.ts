@@ -1,4 +1,4 @@
-import { PokemonCard, CardPrice } from '../../types';
+import { PokemonCard } from '../../types';
 import { CardRepository, CardSet } from './CardRepository';
 
 // Mock card database with expanded data

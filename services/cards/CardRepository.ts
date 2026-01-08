@@ -1,4 +1,4 @@
-import { Card, PokemonCard } from '../../types';
+import { PokemonCard } from '../../types';
 
 export interface CardSet {
   id: string;

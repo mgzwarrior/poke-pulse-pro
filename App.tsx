@@ -9,7 +9,6 @@ import {
 import Scanner from './components/Scanner';
 import CardDetails from './components/CardDetails';
 import Collection from './components/Collection';
-import { getCardById, searchCards } from './services/cardDatabase';
 import { 
   Scan, 
   LayoutDashboard, 
